@@ -1,5 +1,29 @@
 
 /* css */
-head {
-  background-color: #DB59FC;
+body {
+  background-color: #ede7d2;
+  font-family: American Typewriter, serif
+}
+
+#title {
+  font-size: 128px;
+  font-weight: bold;
+}
+
+#titleExp {
+  font-size: 80px;
+}
+
+.usableQ {
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.heading {
+  font-size: 80px;
+}
+
+.explanation{
+  font-size: 48px;
 }
