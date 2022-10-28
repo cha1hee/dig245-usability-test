@@ -5,6 +5,11 @@ body {
   font-family: American Typewriter, serif
 }
 
+img {
+  display: flex;
+  content: center;
+}
+
 #title {
   font-size: 128px;
   font-weight: bold;
@@ -25,5 +30,17 @@ body {
 }
 
 .explanation{
-  font-size: 48px;
+  font-size: 36px;
+}
+
+.emptyS1 {
+  height: 400px;
+}
+
+.emptyS2 {
+  height: 135px;
+}
+
+.emptyS3 {
+  height: 50px;
 }
