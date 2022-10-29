@@ -10,13 +10,57 @@ img {
   content: center;
 }
 
+p {
+  background-color: transparent;
+}
+
+table th, td{
+  border-bottom: 1px solid;
+  width: 10%;
+  text-align: center;
+}
+
+tr:nth-child(odd) {
+  background-color: #DEEDD2;
+}
+
+th {
+  background-color: #92dab2;
+}
+
+.navbar {
+  top: 0;
+  width: 100%;
+  position: fixed;
+  background-color: #aedfaa;
+  opacity: .65;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 25%;
+}
+
+a:hover {
+  background-color: #fdfd96;
+}
+
+
+
 #title {
   font-size: 128px;
   font-weight: bold;
+  position: relative;
+  z-index: 1;
 }
 
 #titleExp {
   font-size: 80px;
+  position: relative;
+  z-index: 1;
 }
 
 .usableQ {
@@ -26,7 +70,8 @@ img {
 }
 
 .heading {
-  font-size: 80px;
+  font-size: 70px;
+  background-color: transparent;
 }
 
 .explanation{
@@ -42,5 +87,11 @@ img {
 }
 
 .emptyS3 {
-  height: 50px;
+  height: 30px;
+}
+
+.art {
+  width: 100%;
+  z-index: 0;
+  position: absolute;
 }
